@@ -11,7 +11,12 @@ namespace siratim
     [MenuItem("Tools/Setup/CreateDefaultFolders")]
     public static void CreateDefaultFolder()
     {
-      MakeDir("_Project","Scripts","Materials", "Media/Audio", "Media/Video", "Media/Images");
+      MakeDir("_Project",
+      "Scenes","Scripts","Materials",
+      "Media/Audio",
+      "Media/Video",
+      "Media/Images"
+      );
       AssetDatabase.Refresh();
     }
 
