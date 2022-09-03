@@ -4,7 +4,7 @@ using static System.IO.Directory;
 using static System.IO.Path;
 
 
-namespace siratim
+namespace siratim.Tools
 {
   public static class ToolsMenu
   {
