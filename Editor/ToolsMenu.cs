@@ -12,7 +12,7 @@ namespace siratim
     public static void CreateDefaultFolder()
     {
       MakeDir("_Project",
-      "Scenes","Scripts","Materials",
+      "Scenes","Scripts","Materials", "Prefabs",
       "Media/Audio",
       "Media/Video",
       "Media/Images"
